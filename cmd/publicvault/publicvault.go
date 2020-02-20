@@ -9,6 +9,7 @@ import (
 	"github.com/lpinter/publicvault/secret"
 )
 
+// Main function
 func main() {
 	fmt.Println(publicvault.Config())
 	fmt.Println(secret.GetSecret())
